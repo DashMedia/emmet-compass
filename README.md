@@ -1,6 +1,6 @@
 emmet-compas
 ============
 
-Emmet Compass by Dash Media
+Emmet Compass Snippets by Dash Media
 
 *because we couldn't find one*
