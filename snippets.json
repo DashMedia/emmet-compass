@@ -1,0 +1,27 @@
+{
+	"sass": {
+		"snippets": {
+
+			"Dva": "@include debug-vertical-alignment();",
+			"Alt": "@include adjust-leading-to(${1:1}${2:[, 14px]});",
+			"Eb": "@include establish-baseline($1px);",
+			"Bru": "\\$base-rhythm-unit",
+
+			"Br": "@include border-radius($1px);",
+			"Bs": "@include box-shadow(${1:\\$color} ${2:\\$hoff} ${3:\\$voff} ${4:\\$blur} ${5:\\$spread} ${6:\\$inset});",
+			"Sbs": "@include single-box-shadow(${1:\\$color}, ${2:\\$hoff}, ${3:\\$voff}, ${4:\\$blur}, ${5:\\$spread}, ${6:\\$inset});",
+
+
+			"Mt": "@include margin-leader(${1:1});",
+			"Mb": "@include margin-trailer(${1:1});",
+			"Pt": "@include padding-leader(${1:1});",
+			"Pb": "@include padding-trailer(${1:1});",
+
+			"Fz": "@include adjust-font-size-to(${1:\\$font-size}, ${2:\\$rythm-units}, ${3:\\$current-size});",
+			"Sc": "@include span-columns(${1:\\$num-col}, ${2:\\$container-size});",
+			"Pre": "@include pre(${1:\\$num-col}, ${2:\\$container-size});",
+			"Post": "@include post(${1:\\$num-col}, ${2:\\$container-size});"
+			
+	}
+}
+}
