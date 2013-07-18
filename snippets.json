@@ -7,6 +7,7 @@
 			"Lh": "@include adjust-leading-to(${1:1}${2:[, 14px]});",
 			"Eb": "@include establish-baseline($1px);",
 			"Bru": "\\$base-rhythm-unit",
+			"Vg": "@include vertical-groove(${1:\\$rhythm-offset}, ${2:\\$optional-new-font-size}, ${3:\\$optional-from-font-size}, ${4:\\$optional-number-rhythm-units});",
 
 			"Br": "@include border-radius($1px);",
 			"Fz": "@include adjust-font-size-to(${1:\\$font-size}, ${2:\\$rythm-units}, ${3:\\$current-size});",
@@ -17,10 +18,10 @@
 			"St": "@include single-transition(${1:\\$property}, ${2:200ms}, ${3:\\$ease-function}, ${4:\\$delay});",
 
 
-			"Mt": "@include margin-leader(${1:1});",
-			"Mb": "@include margin-trailer(${1:1});",
-			"Pt": "@include padding-leader(${1:1});",
-			"Pb": "@include padding-trailer(${1:1});",
+			"Mt": "@include margin-leader(${1:1}, ${2:\\$current-font-size}));",
+			"Mb": "@include margin-trailer(${1:1}, ${2:\\$current-font-size});",
+			"Pt": "@include padding-leader(${1:1}, ${2:\\$current-font-size});",
+			"Pb": "@include padding-trailer(${1:1}, ${2:\\$current-font-size});",
 
 			"Sc": "@include span-columns(${1:\\$num-col}, ${2:\\$container-size});",
 			"Pre": "@include pre(${1:\\$num-col}, ${2:\\$container-size});",
