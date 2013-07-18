@@ -7,7 +7,7 @@
 			"Lh": "@include adjust-leading-to(${1:1}${2:[, 14px]});",
 			"Eb": "@include establish-baseline($1px);",
 			"Bru": "\\$base-rhythm-unit",
-			"Vg": "@include vertical-groove(${1:\\$rhythm-offset}, ${2:\\$optional-spacing} ${3:\\$optional-new-font-size}, ${4:\\$optional-from-font-size}, ${5:\\$optional-number-rhythm-units});",
+			"Vg": "@include vertical-groove(${1:\\$rhythm-offset}, ${2:\\$optional-spacing}, ${3:\\$optional-new-font-size}, ${4:\\$optional-from-font-size}, ${5:\\$optional-number-rhythm-units});",
 
 			"Br": "@include border-radius($1px);",
 			"Fz": "@include adjust-font-size-to(${1:\\$font-size}, ${2:\\$rythm-units}, ${3:\\$current-size});",
