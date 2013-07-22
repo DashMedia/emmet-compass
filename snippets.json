@@ -2,7 +2,7 @@
 	"sass": {
 		"snippets": {
 
-			"Dva": "@include debug-vertical-alignment();background-size: 100% $base-line-height;",
+			"Dva": "@include debug-vertical-alignment();background-size: 100% \\$base-line-height;",
 			"Alt": "@include adjust-leading-to(${1:1}${2:[, 14px]});",
 			"Lh": "@include adjust-leading-to(${1:1}${2:[, 14px]});",
 			"Eb": "@include establish-baseline($1px);",
@@ -18,7 +18,7 @@
 			"St": "@include single-transition(${1:\\$property}, ${2:200ms}, ${3:\\$ease-function}, ${4:\\$delay});",
 
 
-			"Mt": "@include margin-leader(${1:1}, ${2:\\$current-font-size}));",
+			"Mt": "@include margin-leader(${1:1}, ${2:\\$current-font-size});",
 			"Mb": "@include margin-trailer(${1:1}, ${2:\\$current-font-size});",
 			"Pt": "@include padding-leader(${1:1}, ${2:\\$current-font-size});",
 			"Pb": "@include padding-trailer(${1:1}, ${2:\\$current-font-size});",
