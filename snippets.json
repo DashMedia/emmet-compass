@@ -12,7 +12,7 @@
 			"Br": "@include border-radius($1px);",
 			"Fz": "@include adjust-font-size-to(${1:\\$font-size}, ${2:\\$rythm-units}, ${3:\\$current-size});",
 
-
+			"Bxz": "@include box-sizing(${1:border-box});",
 			"Bs": "@include box-shadow(${1:\\$color} ${2:\\$hoff} ${3:\\$voff} ${4:\\$blur} ${5:\\$spread} ${6:\\$inset});",
 			"Sbs": "@include single-box-shadow(${1:\\$color}, ${2:\\$hoff}, ${3:\\$voff}, ${4:\\$blur}, ${5:\\$spread}, ${6:\\$inset});",
 			"St": "@include single-transition(${1:\\$property}, ${2:200ms}, ${3:\\$ease-function}, ${4:\\$delay});",
