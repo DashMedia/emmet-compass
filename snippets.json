@@ -9,7 +9,7 @@
 			"Bru": "\\$base-rhythm-unit",
 			"Vg": "@include vertical-groove(${1:\\$rhythm-offset}, ${2:\\$optional-spacing}, ${3:\\$optional-new-font-size}, ${4:\\$optional-from-font-size}, ${5:\\$optional-number-rhythm-units});",
 
-			"Bb": "@include base-base(${1:\\$font-size}, ${2:\\$default-font-family}, ${3:\\$spacing}, ${4:\\$trailing-white-space});",
+			"Bb": "@include base-base(${1:\\$font-size}, ${2:\\$default-font-family}, ${3:\\$trailing-white-space}, ${4:\\$spacing});",
 
 
 			"Br": "@include border-radius($1px);",
