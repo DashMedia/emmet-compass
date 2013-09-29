@@ -1,5 +1,5 @@
 {
-	"sass": {
+	"scss": {
 		"snippets": {
 
 			"Dva": "@include debug-vertical-alignment();background-size: 100% \\$base-line-height;",
