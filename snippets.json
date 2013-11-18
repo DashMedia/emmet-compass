@@ -21,7 +21,7 @@
 			"Sbs": "@include single-box-shadow(${1:\\$color}, ${2:\\$hoff}, ${3:\\$voff}, ${4:\\$blur}, ${5:\\$spread}, ${6:\\$inset});",
 			"St": "@include single-transition(${1:\\$property}, ${2:200ms}, ${3:\\$ease-function}, ${4:\\$delay});",
 			"Sts":"@include single-text-shadow(${1:\\$hoff}, ${2:\\$voff}, ${3:\\$blur}, ${4:\\$spread}, ${5:\\$color})",
-			"Op":"@include opacity(${1:.5})",
+			"Op":"@include opacity(${1:.5});",
 			"Bg":"@include background($1);",
 			"Lg":"linear-gradient(${1:\\$top} ${2:\\$left}, ${3:\\$color1}, ${4:\\$color2})",
 			"Rg":"radial-gradient(${1:\\$color1}, ${2:\\$color2} ${3:\\$size})",
