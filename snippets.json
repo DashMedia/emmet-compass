@@ -34,7 +34,8 @@
 			"Sc": "@include span-columns(${1:\\$num-col}, ${2:\\$container-size});",
 			"Pre": "@include pre(${1:\\$num-col}, ${2:\\$container-size});",
 			"Post": "@include post(${1:\\$num-col}, ${2:\\$container-size});",
-
+			"Nth": "$1:nth-child($2){\n$3\n}",
+			"NthT": "$1:nth-of-type($2){\n$2\n}",
 			"ab": "absolute;$1",
 			"rel": "relative;$1",
 
@@ -42,7 +43,7 @@
 			"SmallOnly": "//////////////////\n//  SMALL ONLY  //\n//////////////////\n@include breakpoint(\"small_only\") {\n\t$1\n}\n//////////////////\n//END SMALL ONLY//\n//////////////////\n",
 			"SmallJSOnly": "/////////////////////\n//  SMALL ONLY JS  //\n/////////////////////\n@include breakpoint(\"small_only--js\") {\n\t$1\n}\n/////////////////////\n//END SMALL ONLY JS//\n/////////////////////\n",
 			"SmallJS": "////////////////\n//  SMALL JS  //\n////////////////\n@include breakpoint(\"small--js\") {\n\t$1\n}\n////////////////\n//END SMALL JS//\n////////////////\n",
-			"Medium": "//////////////////\n//  MEDIUM  //\n//////////////////\n@include breakpoint(\"medium\") {\n\t$1\n}\n//////////////////\n//  END MEDIUM  //\n//////////////////\n",
+			"Medium": "//////////////////\n//    MEDIUM    //\n//////////////////\n@include breakpoint(\"medium\") {\n\t$1\n}\n//////////////////\n//  END MEDIUM  //\n//////////////////\n",
 			"MediumOnly": "//////////////////\n//MEDIUM ONLY//\n//////////////////\n@include breakpoint(\"medium_only\") {\n\t$1\n}\n//////////////////\n//END MEDIUM ONLY//\n//////////////////\n",
 			"MediumJS": "/////////////////////\n//  MEDIUM JS  //\n/////////////////////\n@include breakpoint(\"medium--js\") {\n\t$1\n}\n/////////////////////\n//  END MEDIUM JS  //\n/////////////////////\n",
 			"MediumJSOnly": "//////////////////////////\n//  MEDIUM ONLY JS  //\n//////////////////////////\n@include breakpoint(\"medium_only--js\") {\n\t$1\n}\n//////////////////////////\n//  END MEDIUM ONLY JS  //\n//////////////////////////\n",
