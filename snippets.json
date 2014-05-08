@@ -3,6 +3,7 @@
 		"snippets": {
 
 			"Dva": "@include debug-vertical-alignment();background-size: 100% \\$base-line-height;",
+			"Cf": "@include clearfix();",
 			"Alt": "@include adjust-leading-to(${1:1}${2:[, 14px]});",
 			"Lh": "@include adjust-leading-to(${1:1}${2:[, 14px]});",
 			"Eb": "@include establish-baseline($1px);",
