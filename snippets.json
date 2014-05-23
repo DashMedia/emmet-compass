@@ -42,6 +42,7 @@
 			"ab": "absolute;$1",
 			"rel": "relative;$1",
 			"inc": "@include $1;",
+			"Bsp": "-ms-behavior: url(static/lib/background-size/backgroundsize.min.htc);$1",
 			"Small": "///////////////\n///  SMALL  ///\n///////////////\n@include breakpoint(\"small\") {\n\t$1\n}\n///////////////\n///END SMALL///\n///////////////\n",
 			"SmallOnly": "//////////////////\n//  SMALL ONLY  //\n//////////////////\n@include breakpoint(\"small_only\") {\n\t$1\n}\n//////////////////\n//END SMALL ONLY//\n//////////////////\n",
 			"SmallJSOnly": "/////////////////////\n//  SMALL ONLY JS  //\n/////////////////////\n@include breakpoint(\"small_only--js\") {\n\t$1\n}\n/////////////////////\n//END SMALL ONLY JS//\n/////////////////////\n",
