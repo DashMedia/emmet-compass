@@ -24,6 +24,8 @@
 			"Tr": "@include transition(${1:\\$property} ${2:200ms} ${3:\\ease-in-out} ${4:\\$delay});",
 			"Sts":"@include single-text-shadow(${1:\\$hoff}, ${2:\\$voff}, ${3:\\$blur}, ${4:\\$spread}, ${5:\\$color})",
 			"Op":"@include opacity(${1:.5});",
+			"Yep":"@include yep(${1:rgba}) {$2};",
+			"Nope":"@include nope(${1:rgba}) {$2};",
 			"Om":"@include omega;$1",
 			"Bg":"@include background($1);",
 			"Lg":"linear-gradient(${1:\\$top} ${2:\\$left}, ${3:\\$color1}, ${4:\\$color2})",
