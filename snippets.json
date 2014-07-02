@@ -2,7 +2,7 @@
 	"scss": {
 		"snippets": {
 
-			"Dva": "@include debug-vertical-alignment();background-size: 100% \\$base-line-height;",
+			"Dva": "@include debug_baseline();",
 			"Cf": "@include clearfix();",
 			"Alt": "@include adjust-leading-to(${1:1}${2:[, 14px]});",
 			"Lh": "@include adjust-leading-to(${1:1}${2:[, 14px]});",
