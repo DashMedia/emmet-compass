@@ -25,8 +25,10 @@
 
 			"Sc": "@include span-columns(${1:\\$num-col} of ${2:\\$container-size});",
 			"Shift": "@include shift($1);",
-			"Pre": "padding-left: flex-grid(${1:\\$num-col}, ${2:\\$container-size});",
-			"Post": "padding-right: flex-grid(${1:\\$num-col}, ${2:\\$container-size});",
+			"Pre": "@include pre(${1:\\$num-col}, ${2:\\$container-size});",
+			"Post": "@include post(${1:\\$num-col}, ${2:\\$container-size});",
+			"Pref": "@include prefix(${1:\\$num-col}, ${2:\\$container-size});",
+			"Suff": "@include suffix(${1:\\$num-col}, ${2:\\$container-size});",
 			"Nth": "$1:nth-child($2){\n$3\n}",
 			"NthT": "$1:nth-of-type($2){\n$2\n}",
 			"ab": "absolute;$1",
