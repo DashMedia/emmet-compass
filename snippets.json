@@ -14,6 +14,7 @@
 			"Yep":"@include yep(${1:rgba}) {$2};",
 			"Nope":"@include nope(${1:rgba}) {$2};",
 			"Om":"@include omega();$1",
+			"Op":"@include opacity(${1:1});",
 			"Bg":"@include background($1);",
 			"Lg":"linear-gradient(${1:\\$top} ${2:\\$left}, ${3:\\$color1}, ${4:\\$color2})",
 			"Rg":"radial-gradient(${1:\\$color1}, ${2:\\$color2} ${3:\\$size})",
@@ -25,6 +26,7 @@
 
 			"Sc": "@include span-columns(${1:\\$num-col} of ${2:\\$container-size});",
 			"Shift": "@include shift($1);",
+			"ShiftC": "@include shift-in-context(${1:1} of ${2:12});",
 			"Pre": "@include pre(${1:\\$num-col}, ${2:\\$container-size});",
 			"Post": "@include post(${1:\\$num-col}, ${2:\\$container-size});",
 			"Pref": "@include prefix(${1:\\$num-col}, ${2:\\$container-size});",
