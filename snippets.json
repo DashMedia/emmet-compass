@@ -24,6 +24,7 @@
 			"Pt": "@include padding-leader(${1:1}, ${2:\\$current-font-size});",
 			"Pb": "@include padding-trailer(${1:1}, ${2:\\$current-font-size});",
 
+			"Dc": "@include direction-context(right-to-left) {};",
 			"Sc": "@include span-columns(${1:\\$num-col} of ${2:\\$container-size});",
 			"Shift": "@include shift($1);",
 			"ShiftC": "@include shift-in-context(${1:1} of ${2:12});",
